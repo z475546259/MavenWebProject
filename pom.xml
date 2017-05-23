@@ -6,4 +6,33 @@
   <packaging>war</packaging>
   <name>MavenWebProject</name>
   <description>MavenWebProject</description>
+  <build>
+    <finalName>MavenWebProject</finalName>
+    <defaultGoal>package</defaultGoal>
+    <directory>${basedir}/target</directory>
+    <resources>
+        <resource>
+            <targetPath>${basedir}/target/MavenWebProject/WEB-INF/classes</targetPath>
+            <directory>${basedir}/src/main/resources</directory>
+            <filtering>false</filtering>
+        </resource>
+        <resource>
+            <targetPath>${basedir}/target/MavenWebProject/</targetPath>
+            <directory>${basedir}/webapp</directory>
+            <filtering>false</filtering>
+        </resource>
+        <resource>
+            <targetPath>${basedir}/target/MavenWebProject/</targetPath>
+            <directory>${basedir}/java</directory>
+            <filtering>false</filtering>
+        </resource>
+    </resources>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.0.0</version>
+        </plugin>
+    </plugins>
+</build>
 </project>
