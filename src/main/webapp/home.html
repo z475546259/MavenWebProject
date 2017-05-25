@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <title>home.html</title>
+    <title>Xchanger-home.html</title>
     <meta charset="utf-8">
-    <base href="/merise/" />
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
@@ -12,217 +11,54 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" href="easyui/themes/default/easyui.css" />
 	<link rel="stylesheet" href="easyui/themes/icon.css" />
-	<link rel="stylesheet" href="layui/css/layui.css" />
-  	<link rel="stylesheet" href="css/sunx.platform.css?20161216" />
 	<script type="text/javascript" src="easyui/jquery.min.js"></script>
 	<script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
 	<script type="text/javascript" src="easyui/locale/easyui-lang-zh_CN.js"></script>
-	<script type="text/javascript" src="layui/layui.js"></script>
-	<script type="text/javascript" src="js/sunx.platform.js?20161216"></script>
   </head>
   <body>
-  	<div class="layui-layout layui-layout-admin">
-		<div class="layui-header header header-demo">
-			<div class="layui-main">
-				<a class="logo" href="/"><img src="image/logo.png" alt="layui"></a>
-				<ul class="layui-nav">
-					<li class="layui-nav-item layui-this"><a href="javascript:void(0)">设置</a></li>
-					<li class="layui-nav-item"><a href="javascript:void(0)">退出</a></li>
-					<span class="layui-nav-bar"></span>
-				</ul>
-			</div>
-		</div>
-		<div class="layui-side layui-bg-black">
-			<div class="layui-side-scroll">
-				<ul class="layui-nav layui-nav-tree site-demo-nav">
-					<li class="layui-nav-item layui-nav-itemed"><a class="javascript:;" href="javascript:;">物业管理<span class="layui-nav-more"></span></a>
-						<dl class="layui-nav-child">
-							<!--  <dd class="">
-								<a href="javascript:void(0)" class="custom" source="demo.html">测试功能</a>
-							</dd>-->
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/estate.html">物业信息管理</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/estateBuildingDetail.html">楼盘信息管理</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/estateHouseDetail.html">房屋信息管理</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/estateOwnerDetail.html">业主信息管理</a>
-							</dd>
-							 <dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/estateCodeDetail.html">配置信息管理</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/publicFacilitiesDetail.html">公共设施管理</a>
-							</dd>
-						</dl>
-					</li>
-					<li class="layui-nav-item"><a class="javascript:;" href="javascript:;">HR管理<span class="layui-nav-more"></span></a>
-						<dl class="layui-nav-child">
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/dept.html">部门信息管理</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/employees.html">员工信息管理</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/TrainInfo.html">培训信息管理</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/emp.html">招聘信息管理</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/birthdayEmployees.html">本月员工生日统计</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/total.html">员工信息统计</a>
-							</dd>
-						</dl>
-					</li>
-					<li class="layui-nav-item"><a class="javascript:;" href="javascript:;">事件管理<span class="layui-nav-more"></span></a>
-						<dl class="layui-nav-child">
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/newSpaperReport.html">报事报修管理</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/reservation.html">预约服务</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/reportTotal.html">报表统计</a>
-							</dd>
-						</dl>
-					</li>
-					<li class="layui-nav-item"><a class="javascript:;" href="javascript:;">收费管理<span class="layui-nav-more"></span></a>
-						<dl class="layui-nav-child">
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/area.html">区域示例</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/billingType.html">收费项目</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/chargeStandard.html">收费标准</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/bindingStandard.html">绑定标准</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/createBills.html">生成账单</a>
-							</dd>
-							<!-- 
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/houseChargeRelation.html">收费项目</a>
-							</dd>
-							 -->
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/bill.html">票据管理</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/houseNumber.html">用户流水</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/pay.html">缴费</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/payCost.html">缴费记录</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/lackRecord.html">欠费记录</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/costItem.html">费用详情</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/financialDetails.html">每日财务明细</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/trun.html">移交记录</a>
-							</dd>
-						</dl>
-					</li>
-					<li class="layui-nav-item"><a class="javascript:;" href="javascript:;">消息中心<span class="layui-nav-more"></span></a>
-						<dl class="layui-nav-child">
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/messageGroup.html">消息群发</a>
-							</dd>
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/messageFestival.html">生日祝福</a>
-							</dd>
-							 <dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/messageCost.html">催缴信息</a>
-							</dd>
-						</dl>
-					</li>
-					<li class="layui-nav-item"><a class="javascript:;" href="javascript:;">公告管理<span class="layui-nav-more"></span></a>
-						<dl class="layui-nav-child">
-							<dd class="">
-								<a href="javascript:void(0)" class="custom" source="html/announcement.html">发布公告</a>
-							</dd>
-						</dl>
-					</li>
-					<span class="layui-nav-bar" style="top: 22.5px; height: 0px; opacity: 0;"></span>
-				</ul>
-			</div>
-		</div>
-		<div class="layui-body layui-tab-content">
-			<iframe id="mainFrame" src=""  class="easyui-tabs" style="width: 100%; height: 100%; border: none; margin: 0; padding: 0;"></iframe> 
-			<!-- <div id="mainFrame" src=""  class="easyui-tabs" style="width: 100%; height: 100%; border: none; margin: 0; padding: 0;"></div> -->
-		</div>
-		<div class="layui-footer footer footer-demo">
-			<div class="layui-main">
-				<p>2016 © <a href="http://www.ifmtech.com/" target="_blank">ifmtech.com</a> MIT license</p>
-			</div>
-		</div>
-	</div>
-	<div class="site-tree-mobile layui-hide">
-		<i class="layui-icon">&#xe602;</i>
-	</div>
-	<div class="site-mobile-shade"></div>
-	<script type="text/javascript">
-	/* $('#mainFrame').tabs({
-	    border:false,
-	    onSelect:function(title){
-			//alert(title+' is selected');
-	    }
-	}); */
-		$(document).on("click", ".custom", function(){
-			var source = $(this).attr("source");
-			$(".custom").each(function(){
-				if (source == $(this).attr("source")) {
-					$(this).parent().addClass("layui-this");
-					$("#mainFrame").attr("src", $(this).attr("source"));
-				} else {
-					$(this).parent().removeClass("layui-this");
-				}
-			}); 
-			
-	/* 		$('#mainFrame').tabs('add',{
-			    title: $(this).text(),
-			  //  content:source,
-			    href:source,
-			    closable:true,
-			    tools:[{
-					iconCls:'icon-mini-refresh',
-					handler:function(){
-						alert('refresh');
-						var tab = $('#mainFrame').tabs('getSelected');  // get selected panel
-						
-						tab.panel('refresh');
-					}
-			    }]
-			});*/
-			
-		}); 
-		$(document).on("click", ".layui-nav-item", function(){
-			$("li").each(function(){
-				$(this).removeClass("layui-nav-itemed")
-			});
-			$(this).addClass("layui-nav-itemed")
-		});
-		
-	</script>
+  		<div>请选择包
+  			<select id="package">
+  				<option value="com">com</option>
+  				<option value="com.example">com.example</option>
+  			</select>
+  		</div>
+  		<div>请选择Class
+  			<select id="class">
+  				<option value="ClassOne">ClassOne</option>
+  				<option value="ClassTwo">ClassTwo</option>
+  			</select>
+  		</div>
+  		<div>请选择方法
+  			<select id="method">
+  				<option value="method1">method1</option>
+  				<option value="method2">method2</option>
+  			</select>
+  		</div>
+  		<div>
+  			<span>参数列表</span><br>
+  			<div>
+  				<div>
+  					<span>第一个参数</span><input type="number">
+  				</div>
+  				<div>
+  					<span>第二个参数</span><input type="date">
+  				</div>
+  			</div>
+  		</div>
+  		<div>
+  			返回结果：
+  			<textarea rows="10" cols="20"  readonly="readonly">fanhui111111111111111111111112222222222222222222333333333</textarea>
+  		</div>
   </body>
+  <script type="text/javascript">
+	  $.ajax({
+			type: "POST",
+		   	url: "package",
+		   	data:{"packageName":"com"},
+		   	dataType: "json",
+		   	success: function(data){
+		   		alert(JSON.stringfy(data));
+		   	}
+		});
+  </script>
  </html>
