@@ -1,0 +1,298 @@
+.icon-blank{
+	background:url('icons/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('icons/edit_add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('icons/pencil.png') no-repeat center center;
+}
+.icon-clear{
+	background:url('icons/clear.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('icons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('icons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('icons/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('icons/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('icons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('icons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('icons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('icons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('icons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('icons/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('icons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('icons/tip.png') no-repeat center center;
+}
+.icon-filter{
+	background:url('icons/filter.png') no-repeat center center;
+}
+.icon-man{
+	background:url('icons/man.png') no-repeat center center;
+}
+.icon-lock{
+	background:url('icons/lock.png') no-repeat center center;
+}
+.icon-more{
+	background:url('icons/more.png') no-repeat center center;
+}
+
+
+.icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+
+.icon-large-picture{
+	background:url('icons/large_picture.png') no-repeat center center;
+}
+.icon-large-clipart{
+	background:url('icons/large_clipart.png') no-repeat center center;
+}
+.icon-large-shapes{
+	background:url('icons/large_shapes.png') no-repeat center center;
+}
+.icon-large-smartart{
+	background:url('icons/large_smartart.png') no-repeat center center;
+}
+.icon-large-chart{
+	background:url('icons/large_chart.png') no-repeat center center;
+}
+.icon-cologne-address{background:url('icons/icon-cologne/16x16/address.png') no-repeat center center;}
+.icon-cologne-administrative-docs{background:url('icons/icon-cologne/16x16/administrative-docs.png') no-repeat center center;}
+.icon-cologne-advertising{background:url('icons/icon-cologne/16x16/advertising.png') no-repeat center center;}
+.icon-cologne-archives{background:url('icons/icon-cologne/16x16/archives.png') no-repeat center center;}
+.icon-cologne-attibutes{background:url('icons/icon-cologne/16x16/attibutes.png') no-repeat center center;}
+.icon-cologne-bank{background:url('icons/icon-cologne/16x16/bank.png') no-repeat center center;}
+.icon-cologne-basket{background:url('icons/icon-cologne/16x16/basket.png') no-repeat center center;}
+.icon-cologne-bestseller{background:url('icons/icon-cologne/16x16/bestseller.png') no-repeat center center;}
+.icon-cologne-billing{background:url('icons/icon-cologne/16x16/billing.png') no-repeat center center;}
+.icon-cologne-bookmark{background:url('icons/icon-cologne/16x16/bookmark.png') no-repeat center center;}
+.icon-cologne-brainstorming{background:url('icons/icon-cologne/16x16/brainstorming.png') no-repeat center center;}
+.icon-cologne-business-contact{background:url('icons/icon-cologne/16x16/business-contact.png') no-repeat center center;}
+.icon-cologne-busy{background:url('icons/icon-cologne/16x16/busy.png') no-repeat center center;}
+.icon-cologne-calendar{background:url('icons/icon-cologne/16x16/calendar.png') no-repeat center center;}
+.icon-cologne-category{background:url('icons/icon-cologne/16x16/category.png') no-repeat center center;}
+.icon-cologne-check{background:url('icons/icon-cologne/16x16/check.png') no-repeat center center;}
+.icon-cologne-collaboration{background:url('icons/icon-cologne/16x16/collaboration.png') no-repeat center center;}
+.icon-cologne-comment{background:url('icons/icon-cologne/16x16/comment.png') no-repeat center center;}
+.icon-cologne-communication{background:url('icons/icon-cologne/16x16/communication.png') no-repeat center center;}
+.icon-cologne-config{background:url('icons/icon-cologne/16x16/config.png') no-repeat center center;}
+.icon-cologne-consulting{background:url('icons/icon-cologne/16x16/consulting.png') no-repeat center center;}
+.icon-cologne-contact{background:url('icons/icon-cologne/16x16/contact.png') no-repeat center center;}
+.icon-cologne-cost{background:url('icons/icon-cologne/16x16/cost.png') no-repeat center center;}
+.icon-cologne-credit-card{background:url('icons/icon-cologne/16x16/credit-card.png') no-repeat center center;}
+.icon-cologne-credit{background:url('icons/icon-cologne/16x16/credit.png') no-repeat center center;}
+.icon-cologne-current-work{background:url('icons/icon-cologne/16x16/current-work.png') no-repeat center center;}
+.icon-cologne-customers{background:url('icons/icon-cologne/16x16/customers.png') no-repeat center center;}
+.icon-cologne-cv{background:url('icons/icon-cologne/16x16/cv.png') no-repeat center center;}
+.icon-cologne-database{background:url('icons/icon-cologne/16x16/database.png') no-repeat center center;}
+.icon-cologne-date{background:url('icons/icon-cologne/16x16/date.png') no-repeat center center;}
+.icon-cologne-delicious{background:url('icons/icon-cologne/16x16/delicious.png') no-repeat center center;}
+.icon-cologne-document-library{background:url('icons/icon-cologne/16x16/document-library.png') no-repeat center center;}
+.icon-cologne-donate{background:url('icons/icon-cologne/16x16/donate.png') no-repeat center center;}
+.icon-cologne-drawings{background:url('icons/icon-cologne/16x16/drawings.png') no-repeat center center;}
+.icon-cologne-edit{background:url('icons/icon-cologne/16x16/edit.png') no-repeat center center;}
+.icon-cologne-email{background:url('icons/icon-cologne/16x16/email.png') no-repeat center center;}
+.icon-cologne-featured{background:url('icons/icon-cologne/16x16/featured.png') no-repeat center center;}
+.icon-cologne-feed{background:url('icons/icon-cologne/16x16/feed.png') no-repeat center center;}
+.icon-cologne-finished-work{background:url('icons/icon-cologne/16x16/finished-work.png') no-repeat center center;}
+.icon-cologne-flag{background:url('icons/icon-cologne/16x16/flag.png') no-repeat center center;}
+.icon-cologne-folder{background:url('icons/icon-cologne/16x16/folder.png') no-repeat center center;}
+.icon-cologne-free-for-job{background:url('icons/icon-cologne/16x16/free-for-job.png') no-repeat center center;}
+.icon-cologne-freelance{background:url('icons/icon-cologne/16x16/freelance.png') no-repeat center center;}
+.icon-cologne-full-time{background:url('icons/icon-cologne/16x16/full-time.png') no-repeat center center;}
+.icon-cologne-future-projects{background:url('icons/icon-cologne/16x16/future-projects.png') no-repeat center center;}
+.icon-cologne-graphic-design{background:url('icons/icon-cologne/16x16/graphic-design.png') no-repeat center center;}
+.icon-cologne-heart{background:url('icons/icon-cologne/16x16/heart.png') no-repeat center center;}
+.icon-cologne-hire-me{background:url('icons/icon-cologne/16x16/hire-me.png') no-repeat center center;}
+.icon-cologne-home{background:url('icons/icon-cologne/16x16/home.png') no-repeat center center;}
+.icon-cologne-illustration{background:url('icons/icon-cologne/16x16/illustration.png') no-repeat center center;}
+.icon-cologne-invoice{background:url('icons/icon-cologne/16x16/invoice.png') no-repeat center center;}
+.icon-cologne-issue{background:url('icons/icon-cologne/16x16/issue.png') no-repeat center center;}
+.icon-cologne-library{background:url('icons/icon-cologne/16x16/library.png') no-repeat center center;}
+.icon-cologne-lightbulb{background:url('icons/icon-cologne/16x16/lightbulb.png') no-repeat center center;}
+.icon-cologne-limited-edition{background:url('icons/icon-cologne/16x16/limited-edition.png') no-repeat center center;}
+.icon-cologne-link{background:url('icons/icon-cologne/16x16/link.png') no-repeat center center;}
+.icon-cologne-lock{background:url('icons/icon-cologne/16x16/lock.png') no-repeat center center;}
+.icon-cologne-login{background:url('icons/icon-cologne/16x16/login.png') no-repeat center center;}
+.icon-cologne-logout{background:url('icons/icon-cologne/16x16/logout.png') no-repeat center center;}
+.icon-cologne-milestone{background:url('icons/icon-cologne/16x16/milestone.png') no-repeat center center;}
+.icon-cologne-my-account{background:url('icons/icon-cologne/16x16/my-account.png') no-repeat center center;}
+.icon-cologne-networking{background:url('icons/icon-cologne/16x16/networking.png') no-repeat center center;}
+.icon-cologne-old-versions{background:url('icons/icon-cologne/16x16/old-versions.png') no-repeat center center;}
+.icon-cologne-order-1{background:url('icons/icon-cologne/16x16/order-1.png') no-repeat center center;}
+.icon-cologne-order{background:url('icons/icon-cologne/16x16/order.png') no-repeat center center;}
+.icon-cologne-payment-card{background:url('icons/icon-cologne/16x16/payment-card.png') no-repeat center center;}
+.icon-cologne-paypal{background:url('icons/icon-cologne/16x16/paypal.png') no-repeat center center;}
+.icon-cologne-pen{background:url('icons/icon-cologne/16x16/pen.png') no-repeat center center;}
+.icon-cologne-pencil{background:url('icons/icon-cologne/16x16/pencil.png') no-repeat center center;}
+.icon-cologne-phone{background:url('icons/icon-cologne/16x16/phone.png') no-repeat center center;}
+.icon-cologne-photography{background:url('icons/icon-cologne/16x16/photography.png') no-repeat center center;}
+.icon-cologne-plus{background:url('icons/icon-cologne/16x16/plus.png') no-repeat center center;}
+.icon-cologne-premium{background:url('icons/icon-cologne/16x16/premium.png') no-repeat center center;}
+.icon-cologne-print{background:url('icons/icon-cologne/16x16/print.png') no-repeat center center;}
+.icon-cologne-process{background:url('icons/icon-cologne/16x16/process.png') no-repeat center center;}
+.icon-cologne-product-1{background:url('icons/icon-cologne/16x16/product-1.png') no-repeat center center;}
+.icon-cologne-product-design{background:url('icons/icon-cologne/16x16/product-design.png') no-repeat center center;}
+.icon-cologne-product{background:url('icons/icon-cologne/16x16/product.png') no-repeat center center;}
+.icon-cologne-project{background:url('icons/icon-cologne/16x16/project.png') no-repeat center center;}
+.icon-cologne-publish{background:url('icons/icon-cologne/16x16/publish.png') no-repeat center center;}
+.icon-cologne-refresh{background:url('icons/icon-cologne/16x16/refresh.png') no-repeat center center;}
+.icon-cologne-search{background:url('icons/icon-cologne/16x16/search.png') no-repeat center center;}
+.icon-cologne-settings{background:url('icons/icon-cologne/16x16/settings.png') no-repeat center center;}
+.icon-cologne-shipping{background:url('icons/icon-cologne/16x16/shipping.png') no-repeat center center;}
+.icon-cologne-showreel{background:url('icons/icon-cologne/16x16/showreel.png') no-repeat center center;}
+.icon-cologne-sign-in{background:url('icons/icon-cologne/16x16/sign-in.png') no-repeat center center;}
+.icon-cologne-sign-out{background:url('icons/icon-cologne/16x16/sign-out.png') no-repeat center center;}
+.icon-cologne-sign-up{background:url('icons/icon-cologne/16x16/sign-up.png') no-repeat center center;}
+.icon-cologne-sitemap{background:url('icons/icon-cologne/16x16/sitemap.png') no-repeat center center;}
+.icon-cologne-special-offer{background:url('icons/icon-cologne/16x16/special-offer.png') no-repeat center center;}
+.icon-cologne-star{background:url('icons/icon-cologne/16x16/star.png') no-repeat center center;}
+.icon-cologne-statistics{background:url('icons/icon-cologne/16x16/statistics.png') no-repeat center center;}
+.icon-cologne-suppliers{background:url('icons/icon-cologne/16x16/suppliers.png') no-repeat center center;}
+.icon-cologne-tag{background:url('icons/icon-cologne/16x16/tag.png') no-repeat center center;}
+.icon-cologne-ticket{background:url('icons/icon-cologne/16x16/ticket.png') no-repeat center center;}
+.icon-cologne-twitter{background:url('icons/icon-cologne/16x16/twitter.png') no-repeat center center;}
+.icon-cologne-upcoming-work{background:url('icons/icon-cologne/16x16/upcoming-work.png') no-repeat center center;}
+.icon-cologne-user{background:url('icons/icon-cologne/16x16/user.png') no-repeat center center;}
+.icon-cologne-world{background:url('icons/icon-cologne/16x16/world.png') no-repeat center center;}
+.icon-cologne-zoom{background:url('icons/icon-cologne/16x16/zoom.png') no-repeat center center;}
+
+
+.icon-cologne-32-address{background:url('icons/icon-cologne/32x32/address.png') no-repeat center center;}
+.icon-cologne-32-administrative-docs{background:url('icons/icon-cologne/32x32/administrative-docs.png') no-repeat center center;}
+.icon-cologne-32-advertising{background:url('icons/icon-cologne/32x32/advertising.png') no-repeat center center;}
+.icon-cologne-32-archives{background:url('icons/icon-cologne/32x32/archives.png') no-repeat center center;}
+.icon-cologne-32-attibutes{background:url('icons/icon-cologne/32x32/attibutes.png') no-repeat center center;}
+.icon-cologne-32-bank{background:url('icons/icon-cologne/32x32/bank.png') no-repeat center center;}
+.icon-cologne-32-basket{background:url('icons/icon-cologne/32x32/basket.png') no-repeat center center;}
+.icon-cologne-32-bestseller{background:url('icons/icon-cologne/32x32/bestseller.png') no-repeat center center;}
+.icon-cologne-32-billing{background:url('icons/icon-cologne/32x32/billing.png') no-repeat center center;}
+.icon-cologne-32-bookmark{background:url('icons/icon-cologne/32x32/bookmark.png') no-repeat center center;}
+.icon-cologne-32-brainstorming{background:url('icons/icon-cologne/32x32/brainstorming.png') no-repeat center center;}
+.icon-cologne-32-business-contact{background:url('icons/icon-cologne/32x32/business-contact.png') no-repeat center center;}
+.icon-cologne-32-busy{background:url('icons/icon-cologne/32x32/busy.png') no-repeat center center;}
+.icon-cologne-32-calendar{background:url('icons/icon-cologne/32x32/calendar.png') no-repeat center center;}
+.icon-cologne-32-category{background:url('icons/icon-cologne/32x32/category.png') no-repeat center center;}
+.icon-cologne-32-check{background:url('icons/icon-cologne/32x32/check.png') no-repeat center center;}
+.icon-cologne-32-collaboration{background:url('icons/icon-cologne/32x32/collaboration.png') no-repeat center center;}
+.icon-cologne-32-comment{background:url('icons/icon-cologne/32x32/comment.png') no-repeat center center;}
+.icon-cologne-32-communication{background:url('icons/icon-cologne/32x32/communication.png') no-repeat center center;}
+.icon-cologne-32-config{background:url('icons/icon-cologne/32x32/config.png') no-repeat center center;}
+.icon-cologne-32-consulting{background:url('icons/icon-cologne/32x32/consulting.png') no-repeat center center;}
+.icon-cologne-32-contact{background:url('icons/icon-cologne/32x32/contact.png') no-repeat center center;}
+.icon-cologne-32-cost{background:url('icons/icon-cologne/32x32/cost.png') no-repeat center center;}
+.icon-cologne-32-credit-card{background:url('icons/icon-cologne/32x32/credit-card.png') no-repeat center center;}
+.icon-cologne-32-credit{background:url('icons/icon-cologne/32x32/credit.png') no-repeat center center;}
+.icon-cologne-32-current-work{background:url('icons/icon-cologne/32x32/current-work.png') no-repeat center center;}
+.icon-cologne-32-customers{background:url('icons/icon-cologne/32x32/customers.png') no-repeat center center;}
+.icon-cologne-32-cv{background:url('icons/icon-cologne/32x32/cv.png') no-repeat center center;}
+.icon-cologne-32-database{background:url('icons/icon-cologne/32x32/database.png') no-repeat center center;}
+.icon-cologne-32-date{background:url('icons/icon-cologne/32x32/date.png') no-repeat center center;}
+.icon-cologne-32-delicious{background:url('icons/icon-cologne/32x32/delicious.png') no-repeat center center;}
+.icon-cologne-32-document-library{background:url('icons/icon-cologne/32x32/document-library.png') no-repeat center center;}
+.icon-cologne-32-donate{background:url('icons/icon-cologne/32x32/donate.png') no-repeat center center;}
+.icon-cologne-32-drawings{background:url('icons/icon-cologne/32x32/drawings.png') no-repeat center center;}
+.icon-cologne-32-edit{background:url('icons/icon-cologne/32x32/edit.png') no-repeat center center;}
+.icon-cologne-32-email{background:url('icons/icon-cologne/32x32/email.png') no-repeat center center;}
+.icon-cologne-32-featured{background:url('icons/icon-cologne/32x32/featured.png') no-repeat center center;}
+.icon-cologne-32-feed{background:url('icons/icon-cologne/32x32/feed.png') no-repeat center center;}
+.icon-cologne-32-finished-work{background:url('icons/icon-cologne/32x32/finished-work.png') no-repeat center center;}
+.icon-cologne-32-flag{background:url('icons/icon-cologne/32x32/flag.png') no-repeat center center;}
+.icon-cologne-32-folder{background:url('icons/icon-cologne/32x32/folder.png') no-repeat center center;}
+.icon-cologne-32-free-for-job{background:url('icons/icon-cologne/32x32/free-for-job.png') no-repeat center center;}
+.icon-cologne-32-freelance{background:url('icons/icon-cologne/32x32/freelance.png') no-repeat center center;}
+.icon-cologne-32-full-time{background:url('icons/icon-cologne/32x32/full-time.png') no-repeat center center;}
+.icon-cologne-32-future-projects{background:url('icons/icon-cologne/32x32/future-projects.png') no-repeat center center;}
+.icon-cologne-32-graphic-design{background:url('icons/icon-cologne/32x32/graphic-design.png') no-repeat center center;}
+.icon-cologne-32-heart{background:url('icons/icon-cologne/32x32/heart.png') no-repeat center center;}
+.icon-cologne-32-hire-me{background:url('icons/icon-cologne/32x32/hire-me.png') no-repeat center center;}
+.icon-cologne-32-home{background:url('icons/icon-cologne/32x32/home.png') no-repeat center center;}
+.icon-cologne-32-illustration{background:url('icons/icon-cologne/32x32/illustration.png') no-repeat center center;}
+.icon-cologne-32-invoice{background:url('icons/icon-cologne/32x32/invoice.png') no-repeat center center;}
+.icon-cologne-32-issue{background:url('icons/icon-cologne/32x32/issue.png') no-repeat center center;}
+.icon-cologne-32-library{background:url('icons/icon-cologne/32x32/library.png') no-repeat center center;}
+.icon-cologne-32-lightbulb{background:url('icons/icon-cologne/32x32/lightbulb.png') no-repeat center center;}
+.icon-cologne-32-limited-edition{background:url('icons/icon-cologne/32x32/limited-edition.png') no-repeat center center;}
+.icon-cologne-32-link{background:url('icons/icon-cologne/32x32/link.png') no-repeat center center;}
+.icon-cologne-32-lock{background:url('icons/icon-cologne/32x32/lock.png') no-repeat center center;}
+.icon-cologne-32-login{background:url('icons/icon-cologne/32x32/login.png') no-repeat center center;}
+.icon-cologne-32-logout{background:url('icons/icon-cologne/32x32/logout.png') no-repeat center center;}
+.icon-cologne-32-milestone{background:url('icons/icon-cologne/32x32/milestone.png') no-repeat center center;}
+.icon-cologne-32-my-account{background:url('icons/icon-cologne/32x32/my-account.png') no-repeat center center;}
+.icon-cologne-32-networking{background:url('icons/icon-cologne/32x32/networking.png') no-repeat center center;}
+.icon-cologne-32-old-versions{background:url('icons/icon-cologne/32x32/old-versions.png') no-repeat center center;}
+.icon-cologne-32-order-1{background:url('icons/icon-cologne/32x32/order-1.png') no-repeat center center;}
+.icon-cologne-32-order{background:url('icons/icon-cologne/32x32/order.png') no-repeat center center;}
+.icon-cologne-32-payment-card{background:url('icons/icon-cologne/32x32/payment-card.png') no-repeat center center;}
+.icon-cologne-32-paypal{background:url('icons/icon-cologne/32x32/paypal.png') no-repeat center center;}
+.icon-cologne-32-pen{background:url('icons/icon-cologne/32x32/pen.png') no-repeat center center;}
+.icon-cologne-32-pencil{background:url('icons/icon-cologne/32x32/pencil.png') no-repeat center center;}
+.icon-cologne-32-phone{background:url('icons/icon-cologne/32x32/phone.png') no-repeat center center;}
+.icon-cologne-32-photography{background:url('icons/icon-cologne/32x32/photography.png') no-repeat center center;}
+.icon-cologne-32-plus{background:url('icons/icon-cologne/32x32/plus.png') no-repeat center center;}
+.icon-cologne-32-premium{background:url('icons/icon-cologne/32x32/premium.png') no-repeat center center;}
+.icon-cologne-32-print{background:url('icons/icon-cologne/32x32/print.png') no-repeat center center;}
+.icon-cologne-32-process{background:url('icons/icon-cologne/32x32/process.png') no-repeat center center;}
+.icon-cologne-32-product-1{background:url('icons/icon-cologne/32x32/product-1.png') no-repeat center center;}
+.icon-cologne-32-product-design{background:url('icons/icon-cologne/32x32/product-design.png') no-repeat center center;}
+.icon-cologne-32-product{background:url('icons/icon-cologne/32x32/product.png') no-repeat center center;}
+.icon-cologne-32-project{background:url('icons/icon-cologne/32x32/project.png') no-repeat center center;}
+.icon-cologne-32-publish{background:url('icons/icon-cologne/32x32/publish.png') no-repeat center center;}
+.icon-cologne-32-refresh{background:url('icons/icon-cologne/32x32/refresh.png') no-repeat center center;}
+.icon-cologne-32-search{background:url('icons/icon-cologne/32x32/search.png') no-repeat center center;}
+.icon-cologne-32-settings{background:url('icons/icon-cologne/32x32/settings.png') no-repeat center center;}
+.icon-cologne-32-shipping{background:url('icons/icon-cologne/32x32/shipping.png') no-repeat center center;}
+.icon-cologne-32-showreel{background:url('icons/icon-cologne/32x32/showreel.png') no-repeat center center;}
+.icon-cologne-32-sign-in{background:url('icons/icon-cologne/32x32/sign-in.png') no-repeat center center;}
+.icon-cologne-32-sign-out{background:url('icons/icon-cologne/32x32/sign-out.png') no-repeat center center;}
+.icon-cologne-32-sign-up{background:url('icons/icon-cologne/32x32/sign-up.png') no-repeat center center;}
+.icon-cologne-32-sitemap{background:url('icons/icon-cologne/32x32/sitemap.png') no-repeat center center;}
+.icon-cologne-32-special-offer{background:url('icons/icon-cologne/32x32/special-offer.png') no-repeat center center;}
+.icon-cologne-32-star{background:url('icons/icon-cologne/32x32/star.png') no-repeat center center;}
+.icon-cologne-32-statistics{background:url('icons/icon-cologne/32x32/statistics.png') no-repeat center center;}
+.icon-cologne-32-suppliers{background:url('icons/icon-cologne/32x32/suppliers.png') no-repeat center center;}
+.icon-cologne-32-tag{background:url('icons/icon-cologne/32x32/tag.png') no-repeat center center;}
+.icon-cologne-32-ticket{background:url('icons/icon-cologne/32x32/ticket.png') no-repeat center center;}
+.icon-cologne-32-twitter{background:url('icons/icon-cologne/32x32/twitter.png') no-repeat center center;}
+.icon-cologne-32-upcoming-work{background:url('icons/icon-cologne/32x32/upcoming-work.png') no-repeat center center;}
+.icon-cologne-32-user{background:url('icons/icon-cologne/32x32/user.png') no-repeat center center;}
+.icon-cologne-32-world{background:url('icons/icon-cologne/32x32/world.png') no-repeat center center;}
+.icon-cologne-32-zoom{background:url('icons/icon-cologne/32x32/zoom.png') no-repeat center center;}

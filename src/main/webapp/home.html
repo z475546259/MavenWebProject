@@ -17,34 +17,26 @@
   </head>
   <body>
   		<div>请选择包
-  			<select id="package">
-  				<option value="com">com</option>
-  				<option value="com.example">com.example</option>
+  			<select id="package" onchange="getClass(this)">
+  				<option value=""></option>
   			</select>
   		</div>
   		<div>请选择Class
-  			<select id="class">
-  				<option value="ClassOne">ClassOne</option>
-  				<option value="ClassTwo">ClassTwo</option>
+  			<select id="class" onchange="getMethod(this)">
+  				<option value=""></option>
   			</select>
   		</div>
   		<div>请选择方法
-  			<select id="method">
-  				<option value="method1">method1</option>
-  				<option value="method2">method2</option>
+  			<select id="method" onchange="getParameters(this)">
+  				<option value=""></option>
   			</select>
   		</div>
   		<div>
   			<span>参数列表</span><br>
-  			<div>
-  				<div>
-  					<span>第一个参数</span><input type="number">
-  				</div>
-  				<div>
-  					<span>第二个参数</span><input type="date">
-  				</div>
+  			<div id="parameters">
   			</div>
   		</div>
+  		<button onclick="submit()">确认</button>
   		<div>
   			返回结果：
   			<textarea rows="10" cols="20"  readonly="readonly">fanhui111111111111111111111112222222222222222222333333333</textarea>
@@ -53,12 +45,88 @@
   <script type="text/javascript">
 	  $.ajax({
 			type: "POST",
-		   	url: "package",
-		   	data:{"packageName":"com"},
+		   	url: "xchanger/package",
+		   	data:{package:"cnshu"},
 		   	dataType: "json",
 		   	success: function(data){
-		   		alert(JSON.stringfy(data));
+		   		for(var i=0;i<data.data.length;i++){
+		   			$("#package").append("<option value="+data.data[i]+">"+data.data[i]+"</option>");
+		   		}
 		   	}
 		});
+	  
+	  function getClass(obj){
+		  $.ajax({
+				type: "POST",
+			   	url: "xchanger/class",
+			   	data:{"packageName":$(obj).val()},
+			   	dataType: "json",
+			   	success: function(data){
+			   		for(var i=0;i<data.data.length;i++){
+			   			$("#class").append("<option value="+data.data[i].split("--")[0]+">"+data.data[i]+"</option>");
+			   		}
+			   	}
+			});
+	  }
+	  function getMethod(obj){
+		  $.ajax({
+				type: "POST",
+			   	url: "xchanger/method",
+			   	data:{"ClassName":$(obj).val()},
+			   	dataType: "json",
+			   	success: function(data){
+			   		for(var i=0;i<data.data.length;i++){
+			   			$("#method").append("<option value="+data.data[i].split("--")[0]+">"+data.data[i]+"</option>");
+			   		}
+			   	}
+			});
+	  }
+	  function getParameters(obj){
+		  $.ajax({
+				type: "POST",
+			   	url: "xchanger/parameters",
+			   	data:{"ClassName":$("#class").val(),"methodName":$(obj).val()},
+			   	dataType: "json",
+			   	success: function(data){
+			   		for(var i=0;i<data.data.length;i++){
+			   			if(data.data[i]=="int"){
+			   				$("#parameters").append("<div><span>第"+i+"个参数</span><input type='number'></div>");
+			   			}else if(data.data[i]=='byte'){
+			   				$("#parameters").append("<div><span>第"+i+"个参数</span><input type='number'></div>");
+			   			}else if(data.data[i]=='short'){
+			   				$("#parameters").append("<div><span>第"+i+"个参数</span><input type='number'></div>");
+		   				}else if(data.data[i]=='java.lang.Float'){
+			   				$("#parameters").append("<div><span>第"+i+"个参数</span><input type='number'></div>");
+			   			}else if(data.data[i]=='java.lang.Boolean'){
+			   				$("#parameters").append("<div><span>第"+i+"个参数</span><input type='number'></div>");
+			   			}else if(data.data[i]=='java.lang.String'){
+			   				$("#parameters").append("<div><span>第"+i+"个参数</span><input type='number'></div>");
+			   			}else if(data.data[i]=='java.lang.Double'){
+			   				$("#parameters").append("<div><span>第"+i+"个参数</span><input type='number'></div>");
+						}else if(data.data[i]=='char'){
+			   				$("#parameters").append("<div><span>第"+i+"个参数</span><input type='number'></div>");
+						}
+			   		//	$("#parameters").append("<div><input type='button' value='确认提交' onclick=‘submit()’></div>");
+			   		}
+			   	}
+			});
+	  }
+	  function submit(){
+		  var inputs = $("input");
+		  for(var i=0;i<inputs.length;i++){
+			  alert($(inputs[i]).val());
+		  }
+		  $.ajax({
+				type: "POST",
+			   	url: "xchanger/submit",
+			   	data:{"ClassName":$(obj).val()},
+			   	dataType: "json",
+			   	success: function(data){
+			   		for(var i=0;i<data.data.length;i++){
+			   			$("#method").append("<option value="+data.data[i].split("--")[0]+">"+data.data[i]+"</option>");
+			   		}
+			   	}
+			});
+	  }
   </script>
  </html>
